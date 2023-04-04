@@ -63,7 +63,7 @@ yarn
 
 ### Paste the token
 
-Open file [src/App.tsx](./src/App.tsx), find line 23 and replace `{YOUR_TOKEN}` with your access token string, prepared previously in [this step](#how-to-obtain-access-token). It should look like this:
+Open file [src/App.tsx](./src/App.tsx), find line 18 and replace `{YOUR_TOKEN}` with your access token string, prepared previously in [this step](#how-to-obtain-access-token). It should look like this:
 
 ```javascript
   return (
