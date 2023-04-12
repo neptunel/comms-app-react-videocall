@@ -15,7 +15,7 @@ const App = () => {
     return encodeURIComponent(new URLSearchParams(window.location.search).get('token') || '');
   }, [location]);
 
-  const YOUR_TOKEN = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJkb2xieS5pbyIsImlhdCI6MTY4MTI2NTE3Miwic3ViIjoieWp6NExuYlJDSDF3ZW0weWduZXhPUT09Iiwib2lkIjoiZDViYzZkZWEtOTcyMS00MjFhLWFhYWYtYTdhMDgyY2I2MTc2IiwiYmlkIjoiOGEzNjgxYzk4NjAyNzg3ZTAxODYwOWZiN2JlOTU5Y2EiLCJhaWQiOiJkYTkwOTNkNC1jNzA3LTRjMzItOGZiNC1lNzJkZDIzNzc1MzYiLCJhdXRob3JpdGllcyI6WyJST0xFX0NVU1RPTUVSIl0sInRhcmdldCI6InNlc3Npb24iLCJleHAiOjE2ODEzMDgzNzJ9.UPFJuylkrudW9wgCHhMTy_Xi3RglY-7ouyeyAu6Zt6epiGO0Gk11cpRKKv0tME4wHyqylxyC7JEfG71JsMRH-g";
+  const YOUR_TOKEN = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJkb2xieS5pbyIsImlhdCI6MTY4MTI2NTYwMywic3ViIjoieWp6NExuYlJDSDF3ZW0weWduZXhPUT09Iiwib2lkIjoiZDViYzZkZWEtOTcyMS00MjFhLWFhYWYtYTdhMDgyY2I2MTc2IiwiYmlkIjoiOGEzNjgxYzk4NjAyNzg3ZTAxODYwOWZiN2JlOTU5Y2EiLCJhaWQiOiJkYTkwOTNkNC1jNzA3LTRjMzItOGZiNC1lNzJkZDIzNzc1MzYiLCJhdXRob3JpdGllcyI6WyJST0xFX0NVU1RPTUVSIl0sInRhcmdldCI6InNlc3Npb24iLCJleHAiOjE2ODEzMDg4MDN9.GGDgQH8HTPwipprHHdBuRHNr6VGj5GkuWciTEREeZ4CcNccpe6Kyyqb9hMu5xUR_jRsM3ElhAFki-841egqPxg";
   // change the  domain to a relative url ./api/token-generator 
   const tokenServerURL = "https://senatokenserver.netlify.app/api/token-generator";
   
